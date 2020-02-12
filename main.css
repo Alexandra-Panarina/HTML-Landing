@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100vw;
+    height: 800px;
+    background: linear-gradient(to left, #f32177, #fd712c);
+}
+div {
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo {
+    margin-top: 30px;
+    float: left;
+}
+nav {
+    display: block;
+    margin-top: 30px;
+    float: right;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.clearfix:after {
+    contentin: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    margin-top: 30px;
+    float: left;
+    display: block;
+    margin-right: 60px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+a.nav-link:hover{
+    font-weight: bold;
+    color: black;
+}
+.btn.btn-light.button-white {
+    margin-top: 30px;
+    font-weight: bold;
+    height: 36px;
+    width: 153px;
+    border-radius: 20px;
+}
+
+.titles-first {
+    margin-top: 150px;
+    font-size: 54px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.sub-titles {
+    padding: 0;
+    font-size: 14px;
+    font-family: "Dosis", sans-serif;
+    color: white;
+
+}
+.sub-titles li{
+    list-style-type: none;
+}
+.sub-titles li:before{
+    margin-right: 20px;
+     content: url("image/11.png");
+ }
+.btn.btn-light.button-white.size {
+    width: 195px;
+}
+.iphones {
+    left: 0%,50
+
+}
