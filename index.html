@@ -7,38 +7,120 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:500,700,800&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Giant</title>
 </head>
 <body>
 <!--Header-->
-<header>
+<div class="header-background">
     <div class="container">
-        <div class="heading clearfix">
-            <img src="image/Logo.png" class="logo">
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li >
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
+        <header >
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="image/Logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div style="flex: 1"></div>
+                        <ul class="navbar-nav mr-auto">
+                            <li >
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li >
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-light button-white">Download now</button>
 
-
-                    <button type="button" class="btn btn-light button-white">Download Now</button>
-                </ul>
-            </nav>
+                    </div>
+                </nav>
+        </header>
+        <div class="header-title">
+                A Powerful & Unique </br>App Landing Template
         </div>
-        <!--Banner-->
-        <div class="banner">
-            <div class="title">
-                <p class="titles-first"> A Powerful & Unique</br> App Landing Template</p>
-                <p  class="sub-titles">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </br> incididunt ut labore et dolore magna aliqua.</p>
-                <ul class="sub-titles">
+        <div class="header-list">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</br> incididunt ut labore et dolore magna aliqua
+            <ul class="list">
+                <li>
+                    Unlimited colors: banner with images, slider or video
+                </li>
+                <li>
+                    Fully Responsive and powered by HTML5 and CSS3
+                </li>
+                <li>
+                    Very easy to customize : set up in minutes
+                </li>
+            </ul>
+            <button type="button" class="btn btn-light button-white">Start Exploring Us</button>
+        </div>
+        <img class="img-iphone" src="image/iPhones.png">
+    </div>
+</div>
+<!--Features-->
+<section class="features">
+    <div class="container">
+        <div class="items-grid">
+            <div class="media sell">
+                <img src="image/Icon1.png" class="mr-3">
+                <div class="media-body">
+                    <h5 class="mt-0">Sell any product online</h5>
+                    <p class="color-media">Over 92% of computers are infected with Adware and spyware. Such software is</p>
+                </div>
+            </div>
+            <div class="media customize">
+                <img src="image/Icon2.png" class="mr-3">
+                <div class="media-body">
+                    <h5 class="mt-0">Very easy to customize</h5>
+                    <p class="color-media"> Many of us are so used to working on a computer desktop that when it comes</p>
+                </div>
+            </div>
+            <div class="media colors">
+                <img src="image/Icon3.png" class="mr-3">
+                <div class="media-body">
+                    <h5 class="mt-0">Unlimited colors</h5>
+                    <p class="color-media">Audio player software is used to play back sound recordings in one of the many</p>
+                </div>
+            </div>
+            <div class="media responsive">
+                <img src="image/Icon4.png" class="mr-3">
+                <div class="media-body">
+                    <h5 class="mt-0">Responsive, HTML5, CSS3</h5>
+                    <p class="color-media"> Computers have become ubiquitous in almost every facet of our lives. At work, desk</p>
+                </div>
+            </div>
+            <div class="media convert">
+                <img src="image/Icon5.png" class="mr-3">
+                <div class="media-body">
+                    <h5 class="mt-0">Designed to convert</h5>
+                    <p class="color-media"> If you are looking for a new way to promote your business that won`t cost</p>
+                </div>
+            </div>
+            <div class="media boundaries">
+                <img src="image/Icon6.png" class="mr-3">
+                <div class="media-body">
+                    <h5 class="mt-0">With no boundaries</h5>
+                    <p class="color-media"> Now, if you are interested in being the best player, getting really good money and</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="section3-grid">
+            <img src="image/iPhone2.png" class="iphon2-img">
+            <div class="description">
+                <h5 class="mt-0"> We don’t leave you stranded</h5>
+                <p class="color-media"> Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?</p>
+                <p class="color-media margin-p">Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill? If you’re already a developer, or a PM, or a UX designer.</p>
+                <ul class="list-description">
                     <li>
                         Unlimited colors: banner with images, slider or video
                     </li>
@@ -48,20 +130,10 @@
                     <li>
                         Very easy to customize : set up in minutes
                     </li>
-                    <button type="button" class="btn btn-light button-white size">Start Exploring Us</button>
                 </ul>
             </div>
-
         </div>
     </div>
-    <img src="image/iPhones.png" class="iphones">
-</header>
-
-<section>
-    <div class="container">
-
-    </div>
 </section>
-
 </body>
 </html>
