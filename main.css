@@ -32,7 +32,6 @@ a {
     font-size: 54px;
 }
 .header-list {
-    margin-top: 27px;
     font-size: 14px;
     color: white;
 }
@@ -188,6 +187,97 @@ h5.mt-0 {
 .footer > div > img {
     margin: 30px;
 }
+
+
+
+.card > .card-body > img {
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.video-one {
+    padding: 210px 0 275px;
+    background-color: #0b2e13;
+    /*background: #2a2d3b url(image/баба и море.png) center center no-repeat fixed;*/
+    background-size: cover;
+    position: relative;
+
+}
+
+.video-one .container {
+    position: relative;
+    text-align: center;
+}
+.video-one__link {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    -webkit-box-shadow: 0 0 0 0 rgba(42, 45, 59, 0.2);
+    box-shadow: 0 0 0 0 rgba(42, 45, 59, 0.2);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+}
+.video-one__link i {
+    line-height: 125px;
+    color: #e7062b;
+    font-size: 30px;
+    position: relative;
+    z-index: 11;
+}
+.video-one__link:after, .video-one__link:before {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+    content: "";
+    -webkit-box-shadow: 0 0 0 0 rgba(42, 45, 59, 0.2);
+    box-shadow: 0 0 0 0 rgba(42, 45, 59, 0.2);
+
+}
+.video-one__link:after {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+@-webkit-keyframes ripple {
+    70% {
+        -webkit-box-shadow: 0 0 0 70px rgba(42, 45, 59, 0);
+        box-shadow: 0 0 0 70px rgba(42, 45, 59, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(42, 45, 59, 0);
+        box-shadow: 0 0 0 0 rgba(42, 45, 59, 0);
+    }
+}
+@keyframes ripple {
+    70% {
+        -webkit-box-shadow: 0 0 0 70px rgba(42, 45, 59, 0);
+        box-shadow: 0 0 0 70px rgba(42, 45, 59, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(42, 45, 59, 0);
+        box-shadow: 0 0 0 0 rgba(42, 45, 59, 0);
+    }
+}
+
+
 @media (max-width: 1992px) {
     .img-iphone {
         top: 10%;
